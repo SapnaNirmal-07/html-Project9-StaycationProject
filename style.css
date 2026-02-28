@@ -1,0 +1,48 @@
+@media (min-width: 577px) {
+
+.gradient-background {
+    background: linear-gradient(300deg, #3b52bd, #60e4dc, #8aea5e);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-left: 20px;
+}
+
+.g-col-4 {
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+
+.g-col-4 h2 {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.g-col-4 p {
+    line-height: 1.6;
+    text-align: left;
+}
+
+.g-col-4 img {
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.col-12 col-md{
+    margin-left: 50px;
+}
+
+.row {
+    padding:25px;
+    margin-bottom: 25px;
+}
+}
